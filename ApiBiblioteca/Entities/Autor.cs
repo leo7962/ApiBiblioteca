@@ -10,6 +10,8 @@ namespace ApiBiblioteca.Entities
     {
         [Display (Name = "ID")]
         public int Id { get; set; }
+
+        [Required]
         [Display(Name = "Nombre del Autor")]
         public string Name { get; set; }
     }
